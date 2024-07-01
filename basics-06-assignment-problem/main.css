@@ -1,0 +1,22 @@
+body {
+	font-family: sans-serif;
+}
+
+#assignment-instructions {
+	color: purple;
+	font-family: sans-serif;
+}
+
+.highligth-code code {
+	color: green;
+}
+code {
+	color: red;
+	font-family: monospace;
+}
+
+li + li,
+ol li {
+	background-color: black;
+	color: white;
+}
