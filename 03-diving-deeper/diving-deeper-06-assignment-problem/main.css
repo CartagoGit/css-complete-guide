@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#exercise {
+	height: 100%;
+}
+.box {
+	border: 5px dotted purple;
+	padding: 10px 30px;
+	margin: 30px 10px;
+    display: inline-block;
+}
+.box:last-of-type:hover{
+    background-color: purple;
+    color: white;
+
+}
+
+.box--1 {
+    visibility: hidden;
+    /* display: none; */
+	height: 300px;
+    width: 50%;
+}
+
