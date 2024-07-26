@@ -11,9 +11,9 @@
 	margin: auto;
 } */
 
-.testimonial:first-of-type {
-	margin-top: 4rem;
-}
+/* .testimonial:first-of-type {
+	padding-top: 2rem;
+} */
 
 .testimonial__image-container {
 	/* width: 65%; */
@@ -68,7 +68,8 @@
 
 @media (min-width: 40rem) {
 	.testimonial {
-		margin: 2.7rem auto;
+		/* margin: 2.7rem auto; */
+		margin: 0 auto;
 		flex-direction: row;
 	}
 	.testimonial__image-container {

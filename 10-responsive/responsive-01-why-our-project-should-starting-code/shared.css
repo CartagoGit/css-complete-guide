@@ -8,6 +8,11 @@ body {
 	overflow-x: hidden;
 }
 
+main {
+	min-height: calc(100vh - 2.75rem - 5rem);
+	margin-top: 2.75rem;
+}
+
 .backdrop {
 	position: fixed;
 	display: none;
@@ -80,7 +85,8 @@ body {
 	/* display: inline-block; */
 	display: none;
 	text-align: right;
-	width: calc(100% - 40px);
+	/* width: calc(100% - 40px); */
+
 	vertical-align: middle;
 	/* height: 2.75rem; */
 }
@@ -129,7 +135,7 @@ body {
 
 .main-footer {
 	background: black;
-	margin-top: 3rem;
+	/* margin-top: 3rem; */
 	padding: 1rem;
 }
 
@@ -209,10 +215,16 @@ body {
 }
 
 @media (min-width: 40rem) {
+	main {
+		margin-top: 2.75rem;
+		padding-top: 2rem;
+		padding-bottom: 4rem;
+	}
 	.main-header {
 		height: 2.75rem;
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 	}
 	.toggle-button {
 		display: none;
@@ -223,6 +235,7 @@ body {
 	}
 	.main-footer {
 		padding: 2rem;
+		height: 5rem;
 	}
 	.main-footer__link {
 		display: inline-block;
