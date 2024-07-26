@@ -31,9 +31,11 @@
 .testimonial__info {
 	/* text-align: right; */
 	padding: 0.9rem;
-	display: inline-block;
-	vertical-align: middle;
+	display: inline-flex;
 	order: 2;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
 	/* width: 30%; */
 }
 
